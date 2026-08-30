@@ -75,5 +75,6 @@ cin.tie(0);
    for(n = 1 ; n <= 5; n++) {
        std::cout<<"n"<<n<<std::endl;
        }
+       
       return 0;
 }
