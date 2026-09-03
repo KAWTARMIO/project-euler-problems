@@ -86,7 +86,8 @@ cin.tie(0);
       for( long long y = 3; y <= number; y++){
          if(number % y == 0){
             std::cout<<y<<"it's a prime number"<<std::endl;
-            // project euler problem 3
+            // project euler problem 3 done
+            #include <cmath>
             long long get = 600851475143;
             long long root = (long long)sqrt((double)get) + 1;
             std::cout<<"the root is:"<<root<<std::endl;
@@ -95,9 +96,10 @@ cin.tie(0);
                while(get > 1){
                 while(get % i == 0){
                      std::cout<<"it's a prime number:"<<i<<std::endl;
-                     number = get/i;
+                     
+                     get= get/i;
                    }
-                   y++;
+                   i++;
                }
                
          
